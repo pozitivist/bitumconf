@@ -148,4 +148,5 @@ footer {background: #6f6f6e; margin-top: 20px; padding: 0 18px;}
 
   .hex_1, .hex_2, .hex_3, .hex_4 {padding-bottom: 110px !important;}
   ul.partners li {width:60%; margin: 0 auto; float:none;}
+  .m2, .m3 {float:none; margin-left:auto; margin-right:auto;}
 }
