@@ -2,6 +2,7 @@ body, html {
   padding:10px 0 0 0;
   margin: 0;
   height: 100%;
+  box-sizing: border-box;
   font-family: 'DIN Pro', Arial;
   font-size: 12pt;
   color:#575756;
@@ -17,11 +18,17 @@ h1 {}
 
 .container{
   display: grid;
+  display: -ms-grid;
   grid-template-areas:  "header"
                         "slider"
                         "main"
                         "footer";
+  -ms-grid-columns:      "header"
+                        "slider"
+                        "main"
+                        "footer";
   grid-template-rows: auto auto 1fr auto;
+  -ms-grid-rows: auto auto 1fr auto;
   min-height: 100vh;
 }
 .col {
@@ -46,8 +53,11 @@ header, main {padding: 0 18px;}
 
 .header-row {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 200px 1fr 200px;
+  -ms-grid-colums: 200px 1fr 200px;
   grid-template-rows: auto;
+  -ms-grid-rows: auto;
   max-width: 1200px;
   margin:0 auto;
   padding: 10px 0 6px;
@@ -57,8 +67,11 @@ header, main {padding: 0 18px;}
 
 .slider-row {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 100%;
+  -ms-grid-colums: 100%;
   grid-template-rows: auto;
+  -ms-grid-rows: auto;
   max-height: 396px;
   max-width: 1200px;
   margin: 20px auto;
@@ -68,8 +81,11 @@ header, main {padding: 0 18px;}
 
 .main-row{
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 50% 50%;
+  -ms-grid-colums: 50% 50%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
   max-width: 1200px;
   margin:0 auto;
 }
@@ -99,8 +115,11 @@ ul.partners li {list-style: none; width: 33%; float:left;}
 footer {background: #6f6f6e; margin-top: 20px; padding: 0 18px;}
 .footer-row{
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 200px 300px 1fr;
+  -ms-grid-colums: 200px 300px 1fr;
   grid-template-rows: auto;
+  -ms-grid-rows: auto;
   max-width: 1200px;
   margin: 20px auto 0;
   padding:40px 0 34px;
@@ -115,6 +134,7 @@ footer {background: #6f6f6e; margin-top: 20px; padding: 0 18px;}
 
   .main-row, .footer-row {
     grid-template-columns: 100%;
+    -ms-grid-colums: 100%
   }
   .header-row {display: block; text-align: center;}
   .main-row {grid-template-rows: 300px auto auto 300px 300px auto auto 300px 300px auto;}
