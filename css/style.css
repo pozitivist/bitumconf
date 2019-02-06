@@ -51,8 +51,8 @@ p {line-height: 1.6em;}
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr auto 1fr auto;
-  grid-template-rows: 1fr 1fr auto 1fr auto;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr auto;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -145,11 +145,11 @@ img.logo {max-height: 90px;}
 
 .title {font-size:24px; line-height: 1.6em; text-transform: uppercase; color: #ee6322; padding-bottom: 10px;}
 
-.img_1 {background: url('../i/bitum_conf_1.jpg') no-repeat; background-size: cover;}
-.img_2 {background: url('../i/bitum_conf_2.jpg') no-repeat; background-size: cover;}
-.img_3 {background: url('../i/bitum_conf_3.jpg') no-repeat; background-size: cover;}
-.img_4 {background: url('../i/bitum_conf_4.jpg') no-repeat; background-size: cover;}
-.img_5 {background: url('../i/bitum_conf_5.jpg') no-repeat; background-size: cover;}
+.img_1 {background: url('../i/bitum_conf_1.jpg') center no-repeat; background-size: cover;}
+.img_2 {background: url('../i/bitum_conf_2.jpg') center no-repeat; background-size: cover;}
+.img_3 {background: url('../i/bitum_conf_3.jpg') center no-repeat; background-size: cover;}
+.img_4 {background: url('../i/bitum_conf_4.jpg') center no-repeat; background-size: cover;}
+.img_5 {background: url('../i/bitum_conf_5.jpg') center no-repeat; background-size: cover;}
 
 .hex_1 {background: url('../i/hex_1.svg') 96% 96% no-repeat #f2f2f2; background-size: 130px;}
 .hex_2 {background: url('../i/hex_2.svg') 4% 96% no-repeat #f2f2f2; background-size: 120px;}
