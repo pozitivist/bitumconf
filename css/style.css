@@ -151,10 +151,10 @@ img.logo {max-height: 90px;}
 .img_4 {background: url('../i/bitum_conf_4.jpg') center no-repeat; background-size: cover;}
 .img_5 {background: url('../i/bitum_conf_5.jpg') center no-repeat; background-size: cover;}
 
-.hex_1 {background: url('../i/hex_1.svg') 96% 96% no-repeat #f2f2f2; background-size: 130px;}
+.hex_1 {background: url('../i/hex_1.svg') 96% 96% no-repeat #f2f2f2; background-size: 110px;}
 .hex_2 {background: url('../i/hex_2.svg') 4% 96% no-repeat #f2f2f2; background-size: 120px;}
 .hex_3 {background: url('../i/hex_3.svg') 96% 96% no-repeat #f2f2f2; background-size: 125px;}
-.hex_4 {background: url('../i/hex_1.svg') 4% 96% no-repeat #f2f2f2; background-size: 130px;}
+.hex_4 {background: url('../i/hex_1.svg') 4% 96% no-repeat #f2f2f2; background-size: 110px;}
 .bg-gray {background-color: #f2f2f2;}
 
 .m2 {width: 180px; margin-top: 40px; float: right; }
