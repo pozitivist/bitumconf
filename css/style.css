@@ -97,7 +97,7 @@ p {line-height: 1.6em;}
   -ms-grid-column: 2;
 }
 
-.main-row > div {padding: 36px; margin: 20px 0;}
+.main-row > div {padding: 36px; margin: 20px 0; min-height: 300px;}
 
 header, .main {padding: 0 18px;}
 footer {background: #6f6f6e; margin-top: 20px; padding: 30px 18px; color: #fff;}
